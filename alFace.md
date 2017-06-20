@@ -1,6 +1,9 @@
-## alFace Interface
+# alFace Interface
 
-![](/figs/landmark_106_index.jpg "Landmark index")
+![](/figs/landmark_106_index.jpg "Landmark index")  
+Landmark points diagram
+
+## Interfaces
 
 ### 초기화
 
@@ -48,7 +51,7 @@ al_result_t alFaceIDLandmarkDestory(alIDLandmark** landmarks);
 al_result_t alFaceRelease();
 ```
 
-### Example
+## Example
 
 ```cpp
 #include "AlMobile.h"
