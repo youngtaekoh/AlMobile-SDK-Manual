@@ -6,9 +6,9 @@
 
 * [alFace: 얼굴 Landmark 추적 모듈](/alface.md)
 * [alFit: Head pose 추정 모듈](/alFit.md)
-* \[alIris: 눈동자 추적 모듈\]\[alIris\]
-* \[alGeom: 3D Deform 모듈\]\[alGeom\]
-* \[alHand: 손 추적 모듈\]\[alHand\]
+* [alIris: 눈동자 추적 모듈](/alIris.md)
+* [alGeom: 3D Deform 모듈](/alGeom.md)
+* [alHand: 손 추적 모듈](/alHand.md)
 
 ## 요구사항
 
@@ -16,9 +16,9 @@
 
 ## AlMobile 작동 화면
 
-\| :----------------: \| :----------------: \|  
-\| ![](figs/iPhoneSE.png "iPhone SE") \| !\[\]\[fig\_galaxy\_S3\] \|  
-\|      iPhone SE     \|     Galaxy S3      \|
+| :----------------: | :----------------: |  
+| ![](figs/iPhoneSE.png "iPhone SE") | ![][fig_galaxy_S3] |  
+|      iPhone SE     |     Galaxy S3      |
 
-\[fig\_galaxy\_S3\]: figs/GalaxyS3.png "Galaxy S3"
+[fig_galaxy_S3]: figs/GalaxyS3.png "Galaxy S3"
 
