@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [AlFace](alFace.md)
-
+* [alFace](alFace.md)
+* [alFit](alFit.md)
