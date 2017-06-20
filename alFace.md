@@ -1,10 +1,9 @@
 ## alFace Interface
-![Landmark indices (106 points)][fig_landmark]
 
-
-[fig_landmark]: figs/landmark_106_index.png "Landmark index"
+![](/figs/landmark_106_index.jpg "Landmark index")
 
 ### 초기화
+
 ```cpp
 /**
  * @brief alFace Initialize
@@ -40,6 +39,7 @@ al_result_t alFaceIDLandmarkDestory(alIDLandmark** landmarks);
 ```
 
 ### Release 함수
+
 ```cpp
 /**
  * @brief Releases alFace
@@ -59,7 +59,7 @@ struct VideoFrame
     size_t width;
     size_t height;
     size_t stride;
-    
+
     unsigned char * data;
 };
 
@@ -74,7 +74,7 @@ bool processVideoFrame(const VideoFrame& frame)
 {
     alIDLandmark *landmarks = nullptr;
     int num_faces = alFaceDetect(frame.data, (int)frame.width, (int)frame.height, &landmarks, AL_PIX_FMT_NV12);
-    
+
     if (num_faces > 0) {
         // Do whatever you want with landmarks
         alFaceIDLandmarkDestory(&landmarks);
@@ -83,3 +83,6 @@ bool processVideoFrame(const VideoFrame& frame)
     return false;
 }
 ```
+
+
+
