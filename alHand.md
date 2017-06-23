@@ -59,7 +59,6 @@
    *                                      0.5 is default value
    *  @return         AL_SUCCESS if succeeded.
    */
-  ALCHERA_MOBILE_EXPORT
   al_result_t alHandSetTrackSensitivity(const float value);
   ```
 
