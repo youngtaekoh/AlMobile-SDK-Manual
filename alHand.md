@@ -24,11 +24,11 @@
 
   ```cpp
   /**
-  *  @brief          Hand detection release function
-  *  @date           2017-02-23
-  *  @return         Success(>0), Failure (<0)
-  */
-  int alHandRelease();
+   *  @brief          Hand detection release function
+   *  @date           2017-02-23
+   *  @return         AL_SUCCESS if succeeded.
+   */
+  al_result_t alHandRelease();
   ```
 
 ### 손 검출
