@@ -47,7 +47,6 @@
    *  @param [out]    pHandRectAll        { class, tracking id, rectangle(l, t, r, b) } array of hand
    *  @return         returns number of hand detected.
    */
-  ALCHERA_MOBILE_EXPORT
   int alHandDetect(const unsigned char* image, const RotationType direction, const int maxHand, float* pHandRectAll);
   ```
 
