@@ -1,4 +1,4 @@
-## alHand Interface
+## alHand: 손 추적 모듈
 
 | ![](/assets/IMG_6308.jpg) | ![](/assets/IMG_6309.jpg) | ![](/assets/IMG_6310.jpg) |
 | :---: | :---: | :---: |
