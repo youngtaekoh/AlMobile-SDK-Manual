@@ -33,7 +33,7 @@
 
 ### 손 검출
 
-* 손 검출은 `alHandDetect()`할수를 사용하며,  함수의 결과값은 각각의 손에 대하여 6개의 값 \(class, tracking id, left, top, right, bottom\)을 반환하므로, 손 하나당 6개의 float value를 사용한다. 따라서 입력으로 넣어주는 `pHandRectAll`의 크기는 `6 * 검출된 사람수`가 되어야 한다. 검출될 손의 수는 10개를 넘지 않는다. \(maxHand &lt;= 10\)
+* 손 검출은 `alHandDetect()`할수를 사용하며,  함수의 결과값은 각각의 손에 대하여 6개의 값 \(_class, tracking id, left, top, right, bottom_\)을 반환하므로, 손 하나당 6개의 float value를 사용한다. 따라서 입력으로 넣어주는 `pHandRectAll`의 크기는 `6 * 검출된 사람수`가 되어야 한다. 검출될 손의 수는 10개를 넘지 않는다. \(maxHand &lt;= 10\)
 
   ```cpp
   /**
@@ -53,12 +53,13 @@
 
   ```cpp
   /**
-  *  @brief          Set tracking sensitivity
-  *  @param [in]     value               tracking sensitivity (0~1), 1 means most sensitive, 0 means least sensitive.
-  *                                      0.5 is default value
-  *  @return         Success(>0), Failure (<0)
-  */
-  int alHandSetTrackSensitivity(const int value);
+   *  @brief          Set tracking sensitivity
+   *  @param [in]     value               tracking sensitivity (0~1), 1 means most sensitive, 0 means least sensitive.
+   *                                      0.5 is default value
+   *  @return         AL_SUCCESS if succeeded.
+   */
+  ALCHERA_MOBILE_EXPORT
+  al_result_t alHandSetTrackSensitivity(const float value);
   ```
 
 ## Example
