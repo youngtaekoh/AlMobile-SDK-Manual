@@ -6,7 +6,6 @@
 
 ### 초기화 및 해제
 * alHand는 기본적으로 YUV 타입의 입력 영상을 이용하여 손 형상를 검출한다. (현재는 `AL_PIX_FMT_NV21`, `AL_PIX_FMT_NV12`만 지원함), 초기화가 실패했을 경우 음수의 값을 반환한다. Hand detection type은 가위바위보(AL_HAND_ROCK_PAPER_SCISSORS) 및 미니하트(AL_HAND_MINI_HEART)를 지원한다.
-
 ```cpp
 /**
  *	@brief			alHand Initialization function
@@ -21,7 +20,6 @@ int alHandInit(int width, int height, const alPixelFormat pixelFormat, HandDetec
 ```
 
 * `alHandRelease()`는 `alHandInit()`를 통해 할당한 메모리 등을 해제하는 역할을 수행하며, 호출하지 않는 경우 Memory leak의 문제를 일으킬 수 있다.
-
 ```cpp
 /**
  *	@brief			Hand detection release function
@@ -33,7 +31,6 @@ int alHandRelease();
 
 ### 손 검출
 * 손 검출은 `alHandDetect()`할수를 사용하며,  함수의 결과값은 각각의 손에 대하여 6개의 값 (class, tracking id, left, top, right, bottom)을 반환하므로, 손 하나당 6개의 float value를 사용한다. 따라서 입력으로 넣어주는 `pHandRectAll`의 크기는 `6 * 검출된 사람수`가 되어야 한다. 검출될 손의 수는 10개를 넘지 않는다. (maxHand <= 10)
-
 ```cpp
 /**
  *	@brief			Detect Hand
