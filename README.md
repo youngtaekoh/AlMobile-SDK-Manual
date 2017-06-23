@@ -1,6 +1,6 @@
 # AlMobile
 
-* Version: 1c85d98c54135e70057fb5f051bc60dfca007e0d
+* Version: 5042817a78666bfc90354bc9f0d342971c1471ce
 
 ## AlMobile 구성요소
 
@@ -21,9 +21,13 @@
 | iPhone SE | Galaxy S3 |
 
 # Copytight notice
+
 This program uses Eigen and libigl, which is licensed under MPL2
 
-You can find modified version of libigl on https://github.com/youngtaekoh/libigl.git
+You can find modified version of libigl on [https://github.com/youngtaekoh/libigl.git](https://github.com/youngtaekoh/libigl.git)
 
-- http://www.mozilla.org/MPL/2.0/
-- http://www.mozilla.org/MPL/2.0/FAQ.html
+* [http://www.mozilla.org/MPL/2.0/](http://www.mozilla.org/MPL/2.0/)
+* [http://www.mozilla.org/MPL/2.0/FAQ.html](http://www.mozilla.org/MPL/2.0/FAQ.html)
+
+
+
