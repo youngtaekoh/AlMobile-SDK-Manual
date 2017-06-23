@@ -37,13 +37,15 @@
 
   ```cpp
   /**
-  *  @brief          Detect Hand
-  *  @date           2017-02-23
-  *  @param [in]     image               input image
-  *  @param [in]     direction           direction of image
-  *  @param [in]     maxHand             Maximum number of hands to be detected. (<=10)
-  *  @param [out]    pHandRectAll        { class, tracking id, rectangle(l, t, r, b) } array of hand
-  */
+   *  @brief          Detect Hand
+   *  @date           2017-02-23
+   *  @param [in]     image               input image
+   *  @param [in]     direction           direction of image
+   *  @param [in]     maxHand             Maximum number of hands to be detected. (<=10)
+   *  @param [out]    pHandRectAll        { class, tracking id, rectangle(l, t, r, b) } array of hand
+   *  @return         returns number of hand detected.
+   */
+  ALCHERA_MOBILE_EXPORT
   int alHandDetect(const unsigned char* image, const RotationType direction, const int maxHand, float* pHandRectAll);
   ```
 
