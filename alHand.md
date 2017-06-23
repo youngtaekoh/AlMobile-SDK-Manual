@@ -65,7 +65,9 @@
 ## Example
 
 ```cpp
-alHandInit(width, height, AL_PIX_FMT_NV12, AL_HAND_ROCK_PAPER_SCISSORS);
+al_result_t ret = alHandInit(width, height, AL_PIX_FMT_NV12, AL_HAND_ROCK_PAPER_SCISSORS);
+if (ret != AL_SUCCESS)
+    exit -1;
 ...
 std::vector<float> hand_det_result_(6 * 5);
 int num_hands = alHandDetect(yuv.data(), rotType, 5, hand_det_result_.data());
