@@ -1,8 +1,8 @@
 ## alHand Interface
 
 | ![](/assets/IMG_6308.jpg) | ![](/assets/IMG_6309.jpg) | ![](/assets/IMG_6310.jpg) |
-| :--- | :--- | :--- |
-| Paper & Scissors | Mini Heart mode | AR hand mode _\(still under development!\)_ |
+| :---: | :---: | :---: |
+| Paper & Scissors | Mini Heart mode | AR hand mode _\(under development!\)_ |
 
 ### 초기화 및 해제
 
