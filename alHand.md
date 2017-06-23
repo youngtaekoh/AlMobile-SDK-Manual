@@ -8,18 +8,16 @@
 
   ```cpp
   /**
-   *	@brief			alHand Initialization function
-   *	@date			2017-02-23
-   *	@param [in]	    width       Width of image (should be bigger than height)
-   *	@param [in]	    height      Height of image
-   *	@param [in]     pixelFormat Pixel format (currently supports only AL_PIX_FMT_NV21 and AL_PIX_FMT_NV12)
-   *	@param [in]     type        Hand detection type
-   *	@return			AL_SUCCESS if succeeded.
+   *  @brief          alHand Initialization function
+   *  @date           2017-02-23
+   *  @param [in]     width       Width of image (should be bigger than height)
+   *  @param [in]     height      Height of image
+   *  @param [in]     pixelFormat Pixel format (currently supports only AL_PIX_FMT_NV21 and AL_PIX_FMT_NV12)
+   *  @param [in]     type        Hand detection type
+   *  @return         AL_SUCCESS if succeeded.
    */
-  ALCHERA_MOBILE_EXPORT
   al_result_t alHandInit(int width, int height, const alPixelFormat pixelFormat,
                          HandDetectionType type = AL_HAND_ROCK_PAPER_SCISSORS);
-
   ```
 
 * `alHandRelease()`는 `alHandInit()`를 통해 할당한 메모리 등을 해제하는 역할을 수행하며, 호출하지 않는 경우 Memory leak의 문제를 일으킬 수 있다.
