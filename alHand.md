@@ -6,7 +6,15 @@
 
 ### 손 검출 타입
 
-###  
+* alHand는 현재 다음과 같은 타입을 지원하며, 이는 `common.h`에 다음과 같이 `HandDetectionType`으로 정의되어 있다.
+
+    - AL_HAND_ROCK_PAPER_SCISSORS
+    - AL_HAND_MINI_HEART
+    - AL_HAND_AR_PALM
+    - AL_HAND_PAPER_ONLY
+    - AL_HAND_OK
+    - AL_HAND_ILY
+    - AL_HAND_ONE 
 
 ### 초기화 및 해제
 
