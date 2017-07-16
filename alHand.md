@@ -8,13 +8,17 @@
 
 * alHand는 현재 다음과 같은 타입을 지원하며, 이는 `common.h`에 다음과 같이 `HandDetectionType`으로 정의되어 있다.
 
-  * AL\_HAND\_ROCK\_PAPER\_SCISSORS: 가위-바위-보
-  * AL\_HAND\_MINI\_HEART: Mini Heart 
+  | Type | Icon | Description |
+  | :--- | :--- | :--- |
+  |  |  |  |
+
+* * AL\_HAND\_ROCK\_PAPER\_SCISSORS:![](/assets/rsp.png) 가위-바위-보
+  * AL\_HAND\_MINI\_HEART\(![](/figs/P08손하트.png)\) : Mini Heart
   * AL\_HAND\_AR\_PALM: \(_Experimental!_\) 손바닥을 검출한다. 
-  * AL\_HAND\_PAPER\_ONLY: 가위 및 보만 검출한다.
-  * AL\_HAND\_OK: OK 사인을 검출한다.
-  * AL\_HAND\_ILY: I Love You 사인을 검출한다.
-  * AL\_HAND\_ONE: 손가락으로 표현한 1을 검출한다.
+  * AL\_HAND\_PAPER\_ONLY \(![](/figs/P04손가락안편손바닥.png)\): 보만 검출한다. \(현재는 Byproduct로 가위도 검출되나 추후 삭제될 예정임.\)
+  * AL\_HAND\_OK\(![](/figs/P07오케이.png)\): OK 사인을 검출한다.
+  * AL\_HAND\_ILY\(![](/figs/P10사인.png)\): I Love You 사인을 검출한다.
+  * AL\_HAND\_ONE\(![](/figs/P06검지.png)\): 손가락으로 표현한 1을 검출한다.
 
 ### 초기화 및 해제
 
