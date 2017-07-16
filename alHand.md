@@ -10,7 +10,7 @@
 
   | Type | Icon | Description |
   | :--- | :--- | :--- |
-  | AL\_HAND\_ROCK\_PAPER\_SCISSORS | ![](/assets/rsp.png) | 가위-바위-보 |
+  | AL\_HAND\_ROCK\_PAPER\_SCISSORS | ![](/figs/rsp.png) | 가위-바위-보 |
   | AL\_HAND\_MINI\_HEART | ![](/figs/P08손하트.png)|  Mini Heart |
   | AL\_HAND\_AR\_PALM \(_Experimental!_\) | | 손바닥을 검출한다. |
   |AL\_HAND\_PAPER\_ONLY |![](/figs/P04손가락안편손바닥.png)| 보만 검출한다. \(현재는 Byproduct로 가위도 검출되나 추후 삭제될 예정임.\)|
