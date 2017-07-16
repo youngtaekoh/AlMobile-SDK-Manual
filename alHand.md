@@ -4,6 +4,10 @@
 | :---: | :---: | :---: |
 | Paper & Scissors mode | Mini Heart mode | AR hand mode _\(under development!\)_ |
 
+### 손 검출 타입
+
+###  
+
 ### 초기화 및 해제
 
 * alHand는 기본적으로 YUV 타입의 입력 영상을 이용하여 손 형상를 검출한다. \(현재는 `AL_PIX_FMT_NV21`, `AL_PIX_FMT_NV12`만 지원함\), 초기화가 실패했을 경우 음수의 값을 반환한다. Hand detection type은 가위바위보\(AL\_HAND\_ROCK\_PAPER\_SCISSORS\) 및 미니하트\(AL\_HAND\_MINI\_HEART\)를 지원한다.
