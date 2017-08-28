@@ -16,9 +16,9 @@
 
 ## AlMobile 작동 화면
 
-| a | b | c |
+| ![](/figs/landmark.jpg) | ![](/figs/mesh.jpg) | ![](/figs/glass.jpg) |
 | :--- | :--- | :--- |
-| a | b | c |
+| Facial Landmarks | 3D Mesh | with AR Objects |
 
 # Copytight notice
 
