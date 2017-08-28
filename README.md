@@ -16,9 +16,6 @@
 
 ## AlMobile 작동 화면
 
-|  |  |
-| :---: | :---: |
-|  |  |
 
 # Copytight notice
 
