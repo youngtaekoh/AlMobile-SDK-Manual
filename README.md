@@ -16,9 +16,9 @@
 
 ## AlMobile 작동 화면
 
-| ![](/figs/iPhoneSE.png) | ![](/figs/GalaxyS3.png) |
+|  |  |
 | :---: | :---: |
-| iPhone SE | Galaxy S3 |
+|  |  |
 
 # Copytight notice
 
