@@ -1,6 +1,6 @@
 # AlMobile
 
-* Version: 1968660f50aafc1418fc2401c918311eafd2e127
+* Version: f350e386ef1c0947ee002bd92ff709ca05201aa7
 
 ## AlMobile 구성요소
 
