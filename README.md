@@ -4,7 +4,7 @@
 
 ## AlMobile 구성요소
 
-* [alFace: 얼굴 Landmark 추적 모듈](/alface.md) 
+* [alFace: 얼굴 Landmark 추적 모듈](/alFace.md)
 * [alFit: Head pose 추정 모듈](/alFit.md)
 * [alIris: 눈동자 추적 모듈](/alIris.md)
 * [alGeom: 3D Deform 모듈](/alGeom.md)
