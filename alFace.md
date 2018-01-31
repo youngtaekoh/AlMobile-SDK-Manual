@@ -23,15 +23,17 @@ al_result_t alFaceInit(const char* path);
 ```cpp
 /**
  * @brief Detect face
- * @param yuv   YUV format image
- * @param width_    width of image
- * @param height_   height of image
- * @param landmarks pointer of the landmark (it will be allocated by this function)
- * @param fmt       image format type (support only AL_PIX_FMT_NV21 or AL_PIX_FMT_NV12)
+ * @param yuv           YUV format image
+ * @param width_        width of image
+ * @param height_       height of image
+ * @param landmarks     pointer of the landmark (it will be allocated by this function)
+ * @param fmt           image format type (support only AL_PIX_FMT_NV21 or AL_PIX_FMT_NV12)
+ * @param rotation_type direction of image, support AL_CLOCKWISE_ROTATE_{0 / 90 / 180 / 270 / DEFAULT}
+ *                      AL_CLOCKWISE_ROTATE_DEFAULT is automatically set to OS dependant direction of image when the device is on the upright position
  * @return number of detected faces
  * @note Use `alFaceIDLandmarkDestory()` to deallocated founded landmarks
  */
-int alFaceDetect(unsigned char* yuv, int width_, int height_, alIDLandmark** landmarks, alPixelFormat fmt);
+int alFaceDetect(unsigned char* yuv, int width_, int height_, alIDLandmark** landmarks, alPixelFormat fmt, RotationType rotation_type = AL_CLOCKWISE_ROTATE_DEFAULT);
 
 /**
  * @brief Deallocates landamrks

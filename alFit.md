@@ -38,14 +38,14 @@ float alGet3DHeadPoseWCandideTrack(const alIDLandmark * alflandmark,
                                    alfPoint2D** vecposed2Dpts = nullptr);
 
 /**
- *    @brief            Get transform matrix
- *    @date            2016-10-17
- *    @param [in]        nFaceID                The face id number from a face tracker
- *    @param [out]    matTransform        Transform matrix (in row-major manner)
- *    @param [out]    matTransformPure    Transform matrix before adjustment (in row-major manner)
- *    @return                                The i-th person in order (0th, 1st, 2nd, etc)==> NOT PERSON ID!!
+ *  @brief          Get transform matrix
+ *  @date           2016-10-17
+ *  @param [in]     nFaceID             The face id number from a face tracker
+ *  @param [out]    matTransform        Transform matrix (in row-major manner)
+ *  @param [out]    matTransformPure    Transform matrix before adjustment (in row-major manner)
+ *  @return                             The i-th person in order (0th, 1st, 2nd, etc)==> NOT PERSON ID!!
  */
-int alGetTransformMat(const int nFaceID, float *matTransform, float *matTtransformPure = nullptr);
+int alGetTransformMat(const int nFaceID, float matTransform[16], float *matTtransformPure = nullptr);
 ```
 
 * ### Camera matrix를 돌려주는 함수

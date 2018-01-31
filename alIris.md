@@ -31,21 +31,23 @@ int alIrisRelease();
 
 ```cpp
 /**
- *    @brief            Detect Iris
- *    @date            2016-12-01
- *    @param [in]        image               YUV image
- *    @param [in]        landmarks           array of landmark
- *    @param [in]     num_landmarks       number of landmark
- *    @param [in]     direction           direction of image: 0, 1, 2, or 3
- *                                        (0 deg, 90 deg,180 deg, and 270 deg, respectively)
- *    @param [in]        width               width of image (should be bigger than height)
- *    @param [in]        height              height of image
- *    @param [out]    pIrisRectAll        rectangle array of iris
+ *  @brief          Detect Iris
+ *  @date           2017-04-13
+ *  @param [in]     image               YUV image
+ *  @param [in]     landmarks           array of landmark
+ *  @param [in]     num_landmarks       number of landmark
+ *  @param [in]     direction           direction of image: 0, 1, 2, or 3
+ *                                      (0 deg, 90 deg,180 deg, and 270 deg, respectively)
+ *  @param [in]     width               width of image (should be bigger than height)
+ *  @param [in]     height              height of image
+ *  @param [out]    iris_rects          rectangle array of iris
+ *  @param [out]    irises              segmentation mask of iris
+ *  @return         Success(>0), Failure (<0)
  */
 ALCHERA_MOBILE_EXPORT
-void alIrisDetect(const unsigned char *image, const float *landmarks,
-                  int num_landmarks, int direction, int width,
-                  int height, float *iris_rects);
+int alIrisDetect(const unsigned char *image, const float *landmarks,
+                 int num_landmarks, int direction, int width,
+                 int height, float *iris_rects, alIrisArray* irises = nullptr);
 ```
 
 ## Example
